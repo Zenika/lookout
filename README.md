@@ -68,7 +68,7 @@ _There are several ways to run **source{d} Lookout**; we recommend to use `docke
 
 _Please refer to the [**Configuring source{d} Lookout** guide](/docs/configuration.md) for documentation about the `config.yml` file, and to know how to configure **source{d} Lookout** to analyze your repositories, or to use your own analyzers._
 
-There is [`docker-compose.yml`](/docker-compose.yml) config file for [Docker Compose](https://docs.docker.com/compose) to start **source{d} Lookout**, its dependencies (**bblfsh** and **PostgreSQL**) and a [`dummy` analyzer](analyzers-examples.md#dummy-analyzer) which will add some stats to the watched pull requests.
+There is [`docker-compose.yml`](/docker-compose.yml) config file for [Docker Compose](https://docs.docker.com/compose) to start **source{d} Lookout**, its dependencies (**bblfsh** and **PostgreSQL**) and a [`dummy` analyzer](/docs/analyzers-examples.md#dummy-analyzer) which will add some stats to the watched pull requests.
 
 To do so, clone this repository or download [`docker-compose.yml`](/docker-compose.yml) directly.
 
